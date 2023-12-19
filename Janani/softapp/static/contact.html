@@ -1,0 +1,166 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        b{
+            color:rgb(60, 238, 10)
+        }
+        p {
+            color: rgba(114, 236, 15, 0.882);
+        }
+
+        body {
+            background:url(Back.png);
+        }
+
+        .yourinfo {
+            background:url(Back.png);
+            border:5px solid rgb(232, 71, 71);
+            margin-right: 800px ;
+            
+            margin-top: 200px; /* Adjusted margin-top */
+            padding: 10px; /* Added padding for better spacing */
+        }
+        .yourinfo input[type="text"] {
+            width: 500px;
+            transition: background-color 0.3s; 
+        }
+        .yourinfo input[type="text"]:focus {
+    /* Change background color when input is focused */
+    background-color: #2278c3; /* Adjust the color as needed */
+}
+
+        .buttons {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .buttons:hover {
+            color: rgb(18, 242, 66);
+            background-color: #29ef44;
+        }
+        .styled form {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .styled form {
+            margin margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .styled [type="button"] {
+            padding: 10px 20px; /* button size */
+            background-color: #3498db; /* initial background color */
+            color: #ffffff; /*initial text color */
+            border: none;
+            transition: background-color 0.3s, color 0.3s; /*smooth transition */
+        }
+        .styled [type="button"]:hover {
+            background-color:rgb(170, 206, 12); /*background color on hover */
+            color:aliceblue; /*text color on hover */
+        }
+        .styled [type="submit"] {
+            border-radius: 10px;
+            padding: 5px 10px; /* button size */
+            background-color: #3498db; /* initial background color */
+            color: #ffffff; /*initial text color */
+            border: none;
+            transition: background-color 0.3s, color 0.3s; /*smooth transition */
+        }
+        .styled [type="submit"]:hover {
+            background-color:rgb(195, 222, 47); /*background color on hover */
+            color:#d1209f; /*text color on hover */
+        }
+        .styled [type="text"] {
+            margin-left: 500px;
+            transition: background-color 0.3s; 
+            background-color:rgb(227, 241, 244);
+        }
+        .styled input[type="text"]:focus {
+    /* Change background color when input is focused */
+    background-color:rgb(81, 21, 220); /* Adjust the color as needed */
+}
+    
+.company{
+
+margin-left: 900px;
+margin-top: -330px;
+background:url(Back.png);
+
+scroll-padding-left: 5px;
+border:2px solid white;
+}
+.message textarea {
+        background-color: rgb(214, 221, 222); /* Set the default background color */
+        color: black; /* Set the default text color */
+    }
+
+    /* Styles for the text area when it is in focus */
+.message    textarea:focus {
+        background-color: rgb(215, 215, 227); /* Set the background color when in focus */
+        color: rgb(27, 209, 51); /* Set the text color when in focus */
+    }
+    </style>
+</head>
+<body>
+    <form class="styled">
+        <div>
+            <a href="mainpage">
+                <input type="button" value="HOME">
+            </a>
+            <a href="products">
+                <input type="button" value="OUR PRODUCTS">
+            </a>
+            <a href="about">
+                <input type="button" value="ABOUT US">
+            </a>
+            <a href="sign">
+                <input type="button" value="SIGN IN">
+            </a>
+            <a href="contact">
+                <input type="button" value="CONTACT">
+            </a>
+            <input type="text" >
+            <input type="submit" value="SEARCH">
+        </div>
+    </form>
+    <div class="yourinfo">
+        <center>
+        <p>Contact Information</p>
+        <div>            
+            <input type="text" maxlength="100" placeholder="Your Name"><br><br>
+            <input type="text" maxlength="100" placeholder="Your Email"><br><br>
+            <div class="message">
+            <textarea rows="5" cols="65" placeholder="Your Message"></textarea><br><br>
+        </div>
+            <input type="button" value="SUBMIT" class="buttons">
+        
+        </center>
+        </div>
+    </div>
+    <div class="company">
+        <center>
+        <h3 style="color: rgba(244, 245, 240, 0.934);">COMPANY CONTACT INFORMATION</h3>
+       <p> <b >Address</b></p>
+        <p >29,Jayaram Nagar,Tambaram</p>
+        <p >Thiruvallur Post</p>
+        <p >Chennai-606108</p>
+        <b >Email:</b>
+        <p >janani29@gmail.com</p>
+        <b >Phone</b>
+        <p >9047862149</p>
+    </center>
+    </div>
+</body>
+<footer style="background-color:black;margin-top: 118px; border: none;">
+    <P style="color:#ffffff ;"align="center">Designed and Devoloped by JANANI S 2023 </P>
+</footer>
+</html>
